@@ -2,7 +2,19 @@
   "name": "react-infinity-window",
   "version": "0.0.1",
   "packageManager": "yarn@4.0.1",
-  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
   "scripts": {
     "build": "rollup -c",
     "compile": "tsc",

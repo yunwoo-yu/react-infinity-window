@@ -11,6 +11,11 @@ export default {
       file:pkg.main,
       sourcemap:true,
       format:'esm',
+    },
+    {
+      file:pkg.module,
+      sourcemap:true,
+      format:'cjs',
     }
   ],
   external: ['react', 'react-dom'],
