@@ -2,6 +2,18 @@
   "name": "react-infinity-window",
   "version": "0.0.1",
   "packageManager": "yarn@4.0.1",
+  "license": "MIT",
+  "author": "yunwoo-yu <skypnal12@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yunwoo-yu/react-infinity-window.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yunwoo-yu/react-infinity-window/issues"
+  },
+  "engines": {
+    "node": ">18.0.0"
+  },
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -16,7 +28,11 @@
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "scripts": {
-    "build": "rollup -c",
+    "build": "rm -rf dist && tsc && rollup -c",
+    "publish": "yarn version -i && yarn npm publish --access public --tag latest",
+    "version:patch": "yarn version patch --deferred",
+    "version:minor": "yarn version minor --deferred",
+    "version:major": "yarn version major --deferred",
     "compile": "tsc",
     "test": "jest"
   },
