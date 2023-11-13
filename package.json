@@ -4,6 +4,10 @@
   "packageManager": "yarn@4.0.1",
   "license": "MIT",
   "author": "yunwoo-yu <skypnal12@gmail.com>",
+  "private": true,
+  "workspaces": [
+    "web"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/yunwoo-yu/react-infinity-window.git"

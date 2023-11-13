@@ -12,7 +12,7 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-infinity-window": "file:../dist"
+    "react-infinity-window": "workspace:*"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
