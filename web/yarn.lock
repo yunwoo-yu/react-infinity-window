@@ -2386,6 +2386,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-infinity-window@file:../::locator=web%40workspace%3A.":
+  version: 0.0.1
+  resolution: "react-infinity-window@file:../#../::hash=e8653a&locator=web%40workspace%3A."
+  peerDependencies:
+    react: ">=18.2.0"
+    react-dom: ">=18.2.0"
+  checksum: 92a62a18d79660f53f696988a7c16fe1822cf290a6f2e255b49f991aad82a5b2b8c084d6cfcd27efcd5083d519c16c8b1bf206648be0e85fb25ab71440360654
+  languageName: node
+  linkType: hard
+
 "react-refresh@npm:^0.14.0":
   version: 0.14.0
   resolution: "react-refresh@npm:0.14.0"
@@ -2809,6 +2819,7 @@ __metadata:
     eslint-plugin-react-refresh: "npm:^0.4.3"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
+    react-infinity-window: "file:../"
     typescript: "npm:^5.0.2"
     vite: "npm:^4.4.5"
   languageName: unknown
