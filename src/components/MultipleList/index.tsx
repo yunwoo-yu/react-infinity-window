@@ -5,7 +5,6 @@ import React from "react";
 export const MultipleList = () => {
   const scroll = useGetScrollPos();
   const height = useGetViewPortHeight();
-
   console.log("scroll", scroll);
   console.log("height", height);
 

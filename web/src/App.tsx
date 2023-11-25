@@ -27,6 +27,7 @@ function App() {
 
       setStartIndex(Math.max(0, start));
       setEndIndex(Math.min(totalItems, end));
+      console.log(start, end, scrollTop, clientHeight);
     }
   }, []);
 
