@@ -6,7 +6,7 @@
     "noFallthroughCasesInSwitch": true,
     "lib": ["ESNext", "dom", "dom.iterable"],
     "strict": true,
-    "jsx": "react",
+    "jsx": "react-jsx",
     "module": "ESNext",
     "declaration": true,
     "declarationDir": "./dist",
