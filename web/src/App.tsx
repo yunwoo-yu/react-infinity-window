@@ -1,4 +1,5 @@
-import { MultipleList } from "react-infinity-window";
+// import { MultipleList } from "react-infinity-window";
+import { MultipleList } from "../../src/components/MultipleList";
 
 // create dummy data arry with 50 items
 const data = Array.from({ length: 50 }, (_, index) => `데이터${index}`);
