@@ -1,0 +1,23 @@
+{
+  "name": "@react-infinity-window/monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "https://github.com/yunwoo-yu/react-infinity-window.git",
+  "devDependencies": {
+    "lerna": "^8.2.1",
+    "prettier": "^3.5.3"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "prettier": {
+    "semi": true,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "printWidth": 120,
+    "importOrderSeparation": true,
+    "importOrderSortSpecifiers": true,
+    "endOfLine": "auto"
+  }
+}
